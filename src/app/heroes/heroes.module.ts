@@ -7,6 +7,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { ListComponent } from './pages/list/list.component';
 import { HeroesComponent } from './pages/heroes/heroes.component';
 import {HeroesRoutingModule} from "./heroes-routing.module";
+import {MaterialModule} from "../material/material.module";
 
 
 
@@ -21,7 +22,8 @@ import {HeroesRoutingModule} from "./heroes-routing.module";
   ],
   imports: [
     CommonModule,
-    HeroesRoutingModule
+    HeroesRoutingModule,
+    MaterialModule
   ]
 })
 export class HeroesModule { }
